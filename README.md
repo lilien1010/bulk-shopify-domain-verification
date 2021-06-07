@@ -1,5 +1,5 @@
 # bulk-shopify-domain-verification
-Verify a list of website is build on topof Shopify or not
+Verify a list of website is build on top of Shopify or not
 
 
 ## How to use
