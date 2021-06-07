@@ -16,14 +16,16 @@ change privilege
 chmod u+x bulk-shopify-domain-verification.sh
 ```
 
-#### Create a txt file that contains domains, one domain one line
+#### Create a txt file that contains domains, one domain each line
 EG:
 ```
 www.allbirds.com
 www.google.com
 ```
 
-save it as `allwebsite.txt`
+save it as `allwebsite.txt` in the same folder of `/bulk-shopify-domain-verification.sh` 
+
+Usually  in `/Users/YOUR_MAC_NAME`
 
 then run `./bulk-shopify-domain-verification.sh allwebsite.txt`
 
