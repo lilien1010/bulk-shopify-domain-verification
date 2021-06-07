@@ -4,7 +4,8 @@ Verify a list of website is build on top of Shopify or not
 
 ## How to use
 
-open terminal.app on your Mac
+open `terminal.app` on your Mac
+
 download script
 ```
 wget https://raw.githubusercontent.com/lilien1010/bulk-shopify-domain-verification/main/bulk-shopify-domain-verification.sh
