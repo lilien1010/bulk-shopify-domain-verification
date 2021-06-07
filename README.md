@@ -7,7 +7,8 @@ Verify a list of website is build on topof Shopify or not
 ### Create a txt file that contains domains, one domain one line
 EG:
 ```
-v
+www.allbirds.com
+www.google.com
 ```
 
 save it as `allwebsite.txt`
@@ -19,3 +20,11 @@ it will output result , domain and `YES` split by `\t`, so you can copy it to go
 www.allbirds.com	YES
 www.google.com	NO
 ```
+
+### How doose this shell script works?
+
+It read the content from HTTP response header
+
+if the website is hosted on Shopify
+
+there should be field like `Set-Cookie: _shopify_s=be704975-32xxxx`
