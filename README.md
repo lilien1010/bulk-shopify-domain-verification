@@ -23,7 +23,7 @@ www.allbirds.com
 www.google.com
 ```
 
-save it as `allwebsite.txt` in the same folder of `/bulk-shopify-domain-verification.sh` 
+save it as `allwebsite.txt` in the same folder of `bulk-shopify-domain-verification.sh` 
 
 Usually  in `/Users/YOUR_MAC_NAME`
 
